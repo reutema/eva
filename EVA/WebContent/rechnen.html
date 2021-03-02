@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Taschenrechner</title>
+</head>
+<body>
+<h1>Taschenrechner</h1>
+<h2>Version 1.0</h2>
+<form action="Calculator" method="get">
+<p>1. Operant:</p><input type="number" name="firstOp">
+<p>2. Operant:</p><input type="number" name="secondOp">
+<fieldset>
+	<p>Operation</p>
+	<input type="radio" id="addition" name="operation" value="+">
+	<label for="addition">+</label>
+	<input type="radio" id="substraction" name="operation" value="-">
+	<label for="substraction">-</label>
+	<input type="radio" id="multiplication" name="operation" value="*">
+	<label for="multiplication">*</label>
+	<input type="radio" id="division" name="operation" value="/">
+	<label for="division">/</label>
+</fieldset>
+<input type="submit"  value="Berechnung durchführen!">
+<button type="submit"  >Berechnung durchführen!</button>
+</form>
+</body>
+</html>
